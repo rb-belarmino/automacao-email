@@ -17,8 +17,8 @@ for lista in tabela.email:
     mail_content = f'''teste {nome:}'''
 
     # The mail addresses and password
-    sender_address = 'email'
-    sender_pass = 'senha'
+    sender_address = 'email_origem'
+    sender_pass = 'senha_origem'
     receiver_address = lista
 
     # Setup the MIME
